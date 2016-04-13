@@ -585,7 +585,7 @@ margin on the iframe, cause it breaks stuff. */
     width: 320px;
     height: 100vh;
     z-index: 100;
-    background-color: #22313F;
+    background-color: #263238;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
     overflow-y: auto;
 }
@@ -597,7 +597,7 @@ main
     right: 0px;
     top: 0px;
     bottom: 0px;
-    padding: 4rem 15%;
+    padding: 4rem 5%;
 }
 
 .main-inner
@@ -719,19 +719,9 @@ main
     text-decoration: none;
 }
 
-.post-time .fulldate
+.post-time
 {
-    display: none;
-}
-
-.post-time:hover .timeago
-{
-    display: none;
-}
-
-.post-time:hover .fulldate
-{
-    display: inline;
+    padding-right: 10px;
 }
 
 /* ========================================================================== */
