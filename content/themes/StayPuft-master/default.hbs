@@ -43,10 +43,6 @@
                     {{> sidebar-external}}
                 </ul>
             </div>
-
-            <footer class="site-footer">
-                <section class="copyright">{{> copyright}}</section>
-            </footer>
         </div>
     </div>
 
@@ -55,6 +51,9 @@
             <section id="results"></section>
             {{{body}}}
         </div>
+		<footer class="site-footer">
+			<section class="copyright">{{> copyright}} | This work is licensed under a Creative Commons Attribution 4.0 International License. | <i class="icon-ghost"></i><a href="https://ghost.org">Ghost</a> - <a href="https://github.com/dlecina/StayPuft">StayPuft theme</a></section>
+		</footer>
     </main>
 
     {{! Ghost outputs important scripts and data with this tag }}
