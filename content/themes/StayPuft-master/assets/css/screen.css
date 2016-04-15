@@ -131,11 +131,11 @@ h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
     margin-top: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     line-height: 1.2em;
     letter-spacing: -2px;
     text-indent: -3px;
@@ -1283,18 +1283,19 @@ main
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
     line-height: 1.7em;
-    color: #BBC4C9;
+    color: #333;
+	padding-bottom: 15px;
 }
 
 .site-footer a {
-    color: #BBC4C9;
+    color: #57A3E8;
 }
 
 .site-footer a:hover {
     color: white;
 }
 
-.poweredby .icon-ghost:before {
+.icon-ghost:before {
     font-size: 9px;
     margin-right: 6px;
 }
@@ -1482,7 +1483,7 @@ main
     }
 
     h1, h2 {
-        font-size: 2.4rem;
+        font-size: 4rem;
         line-height: 1.1em;
         letter-spacing: -1px;
     }
